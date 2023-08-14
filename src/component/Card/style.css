@@ -1,0 +1,67 @@
+.card{
+  border-radius: 7.768px;
+  background: #FFF;
+  box-shadow: 0px 5.610389709472656px 33.66233825683594px 0px rgba(1, 8, 81, 0.08) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  padding: 40px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header button{
+  border-radius: 45px;
+  border: 1px solid #352A9A;
+  background: linear-gradient(295deg, #010851 0%, #352A9A 100%);
+  box-shadow: 0px 4px 4px 0px rgba(1, 8, 81, 0.25);
+  color:white;
+  padding: 3px 7px;
+}
+
+
+.duration{
+  color: rgba(1, 8, 81, 0.60);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.title{
+  color: #010851;
+  font-family: Ubuntu;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 39px */
+  letter-spacing: 0.218px;
+  margin: 10px 0px;
+}
+
+.points{
+  color: var(--style, #010851);
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+}
+li {
+  margin: 10px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .duration{
+    font-size: 14px;
+  }
+  .title{
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal; /* 39px */
+  }
+  .points{
+    font-size: 14px;
+  }
+}
