@@ -139,16 +139,12 @@ body {
   .swiper-button-prev{
     left: -80%;
   }
-  
   .swiper-button-next{
     right:-80%;
   }
-  
   .swiper-button-disabled{
     display: none;
-  }
-  
- 
+  } 
 }
 
 
@@ -193,5 +189,14 @@ body {
   
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
     top:0px
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .swiper-wrapper{
+    margin-left:6%;
+  }
+  .swiper-cards .swiper-slide{
+    width:280px !important
   }
 }

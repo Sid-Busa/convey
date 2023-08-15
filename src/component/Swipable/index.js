@@ -41,9 +41,6 @@ export default function Swip() {
           <Card />
         </SwiperSlide>
       </Swiper>
-      
-      {/* <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div> */}
       <div className='right-coma-container' >
         <img src='/right-coma.png' alt='left-com' />
       </div>
