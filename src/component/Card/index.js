@@ -4,7 +4,7 @@ import './style.css'
 const Card = ({ chapter, duration, title, points }) => {
   return <div className="card" >
     <div className="card-header" >
-      <div> <button className="chapter" > Ch {chapter}  </button> </div>
+      <div> <button className="chapter" > Episode {chapter}  </button> </div>
       <div className="duration" > Duration: {duration} </div>
     </div>
     <h4 className="title" > {title} </h4>

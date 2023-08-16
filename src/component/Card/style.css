@@ -23,7 +23,7 @@
 
 .duration{
   color: rgba(1, 8, 81, 0.60);
-  font-family: Ubuntu;
+  
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -32,7 +32,6 @@
 
 .title{
   color: #010851;
-  font-family: Ubuntu;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -58,6 +57,29 @@ li {
   }
   .title{
     font-size: 20px;
+    font-style: normal;
+    line-height: normal; /* 39px */
+  }
+  .points{
+    font-size: 14px;
+  }
+}
+/*  */
+
+@media only screen and (max-width: 400px) {
+  
+  .card{
+    padding:25px
+  }
+  .card-header button{
+    font-size:12px
+  }
+  .duration{
+    font-size:12px
+  }
+
+  .title{
+    font-size: 18px;
     font-style: normal;
     line-height: normal; /* 39px */
   }
